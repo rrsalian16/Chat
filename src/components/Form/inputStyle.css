@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.input {
+    height: 85px;
+    position: relative;
+}
+
+.input label {
+    color: #6A6A6A;
+    display: block;
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.input .iconfront {
+    position: absolute;
+    top: 23px;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 38px;
+    background: #1851B3;
+    z-index: 1;
+    border-radius: 5px 0 0 5px;
+    display: grid;
+    place-items: center;
+
+}
+
+.input .iconfront i {
+    color: white;
+    font-size: 16px;
+}
+
+.input input {
+    box-sizing: border-box;
+    height: 38px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #CECECE;
+    margin-top: 7px;
+    width: 100%;
+}

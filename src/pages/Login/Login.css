@@ -1,0 +1,35 @@
+.login {
+    height: 100vh;
+    background-color: #777;
+    background-image: linear-gradient(to right bottom, rgb(10, 51, 233), rgb(113, 178, 231), rgb(231, 109, 109));
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-form .box {
+    width: 500px;
+    margin: 20px 20px;
+    padding: 40px;
+    background-color: #fff;
+    background-image: linear-gradient(to right bottom, rgb(46, 45, 44), rgb(100, 100, 100), rgb(190, 190, 189));
+    border-radius: 7px;
+    box-shadow: 2px 3px 4px #444;
+    color: black;
+}
+
+.logo-msg {
+    text-align: center;
+}
+
+.login-form>div button {
+    padding: 12px 0;
+    width: 100%;
+    color: #fff;
+    background-color: #444;
+    border: none;
+}

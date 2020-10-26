@@ -1,0 +1,41 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: bisque;
+}
+
+.header-logo {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    font-size: 30px;
+    line-height: 75px;
+    color: rgb(19, 14, 14);
+    text-align: center;
+    background: rgb(202, 163, 163);
+    box-shadow: 3px 4px 5px #444;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+}
+
+.user h4 {
+    padding: 10px;
+    background-color: coral;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 3px 4px 5px #444;
+}
+
+.user button {
+    margin: auto 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline;
+    border: 1px solid #444;
+}
